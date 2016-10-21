@@ -158,6 +158,30 @@ img {
     display: inline;
 }
 
+table {
+    border: 1px solid #3399cc;
+    width: 80%;
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 5px;
+    border: 1px solid #3399cc;
+}
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(even) {
+    background-color: #f5fafc;
+}
+
 @media only screen and (max-width: 64em) {
     body {
         margin: 0;
