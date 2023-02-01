@@ -2,13 +2,14 @@
 <html lang="en">
 
 <head>
-    <title>Pacific Trails Resort</title>
+    <title>CPaaS Jungle Jewel Resort</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="pacific.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pacific Trails Resort, a place where you can enjoy nature in luxury and engage in fun activities.">
+    <meta name="description" content="CPaaS Jungle Jewel Resort, a place where you can enjoy nature in luxury and engage in fun activities.">
+    <script defer src="https://int.vap.expedia.com/vacservice/public/virtualAgentControls/vacLatest/getScript"></script>
     <!--[if lt IE 9]>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+
   <![endif]-->
 </head>
 
@@ -16,7 +17,7 @@
     <div id="wrapper">
         <header>
 
-            <h1> Pacific Trails Resort</h1>
+            <h1>CPaaS Jungle Jewel Resort</h1>
         </header>
 
         <nav>
@@ -33,14 +34,14 @@
             <video controls="controls" poster="pacifictrailsresort.jpg" width="320" height="240">
                 <source src="PacificTrailsResort.mp4" type="video/mp4">
                 <source src="PacificTrailsResort.ogv" type="video/ogg">
-                <embed type="application/x-shockwave-flash" src="pacifictrailsresort.swf" quality="high" width="320" height="240" title="Pacific Trails Resort">
+                <embed type="application/x-shockwave-flash" src="pacifictrailsresort.swf" quality="high" width="320" height="240" title="CPaaS Jungle Jewel Resort">
                 
                  
             
             </video>
 
 
-            <p><span class="resort">Pacific Trails Resort</span> offers a special lodging experience on the California North Coast. Relax in serenity with panoramic views of the Pacific Ocean.</p>
+            <p><span class="resort">CPaaS Jungle Jewel Resort</span> offers a special lodging experience on the California North Coast. Relax in serenity with panoramic views of the Pacific Ocean.</p>
             <ul>
                 <li>Private yurts with decks overlooking the ocean</li>
                 <li>Activities lodge with fireplace and gift shop</li>
@@ -50,7 +51,7 @@
             </ul>
 
             <div id="contact">
-                <span class="resort">Pacific Trails Resort</span> <br/> 12010 Pacific Trails Road<br/> Zephyr, CA 95555<br/>
+                <span class="resort">CPaaS Jungle Jewel Resort</span> <br/> 12010 Pacific Trails Road<br/> Zephyr, CA 95555<br/>
                 <br/>
                 <a id="mobile" href="tel:888-555-5555">888-555-5555</a> <span id="desktop">888-555-5555</span>
                 <br/>
@@ -63,10 +64,19 @@
 
         </main>
         <div>
-            <footer>Copyright &copy;&nbsp;2016 &nbsp; Pacific Trails Resort <br/>
-                <a href="mailto:bakary.kassama@pacifictrailsresort.com">bakary.kassama@pacifictrailsresort.com</a></footer>
+            <footer>Copyright &copy;&nbsp;2016 &nbsp; CPaaS Jungle Jewel Resort <br/>
+                <a href="mailto:bakary.kassama@pacifictrailsresort.com">cpaas@jewel-jungle-resort.com</a></footer>
         </div>
     </div>
+    <script>
+        const settings = {
+            channelOriginId: '2936798004-6333713360-c3-002',
+        }
+        window.onload = (event) => {
+            VirtualAgentControl.launchChat(settings).then(() => console.log("launch chat successful"))
+                .catch((err) => console.log("launch chat error: ", err))
+        }
+    </script>
 </body>
 
 </html>
